@@ -1,0 +1,42 @@
+{
+  "name": "fairy-h5",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "vue-ui": "vue ui",
+    "dev-serve": "vue-cli-service serve --mode development --dashboard",
+    "dev-build": "vue-cli-service build --mode development --target app --dashboard",
+    "serve": "vue-cli-service serve --mode production --dashboard",
+    "build": "vue-cli-service build --mode production --target app --dashboard",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "less": "^3.11.1",
+    "less-loader": "^6.1.0",
+    "lib-flexible": "^0.3.2",
+    "vant": "^2.10.4",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-plugin-router": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "postcss-pxtorem": "^5.1.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
