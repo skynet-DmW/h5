@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import '@/assets/css/global.css'
 import '@/assets/css/normalize.css'
 
 // rem适配
