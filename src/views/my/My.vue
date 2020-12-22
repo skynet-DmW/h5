@@ -2,11 +2,14 @@
   <div class="container">
     <div class="header">
       <van-image round src="https://img.yzcdn.cn/vant/cat.jpeg" />
-      <div class="name">大熊猫</div>
+      <div class="name">
+        <span>大熊猫</span>
+        <van-icon name="diamond" color="#ffeb3b" />
+      </div>
     </div>
     <div class="main">
       <van-cell-group>
-        <van-cell title="我的订单" is-link icon="orders-o" />
+        <van-cell title="我的VIP" is-link icon="diamond-o" />
         <van-cell title="我的收藏" is-link icon="star-o" />
       </van-cell-group>
       <van-cell-group>
@@ -36,7 +39,9 @@ export default {
 
 <style lang='less' scoped>
 .header {
-  margin-top: 20px;
+  margin: 40px 0 10px;
+  padding-bottom: 20px;
+  background: #fff;
   display: flex;
   > .van-image {
     margin-left: 30px;
@@ -44,11 +49,14 @@ export default {
     height: 80px;
   }
   > .name {
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 22px;
+    > .van-icon {
+      margin-left: 5px;
+    }
   }
 }
 .main {
