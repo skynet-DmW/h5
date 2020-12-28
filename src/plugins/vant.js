@@ -15,7 +15,8 @@ import {
   Button,
   Image,
   Cell,
-  CellGroup
+  CellGroup,
+  Icon
 } from 'vant'
 
 Vue.prototype.$toast = Toast
@@ -34,3 +35,4 @@ Vue.use(Button)
 Vue.use(Image)
 Vue.use(Cell)
 Vue.use(CellGroup)
+Vue.use(Icon)

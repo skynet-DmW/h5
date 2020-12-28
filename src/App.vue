@@ -19,11 +19,12 @@ export default {
       active: 1
     }
   },
-  created() {},
-  mounted() {},
+  mounted() {
+    this.active = Number(sessionStorage.getItem('active'))
+  },
   methods: {
     change(val) {
-      console.log('切换tabbar', val)
+      sessionStorage.setItem('active', val)
     }
   }
 }
